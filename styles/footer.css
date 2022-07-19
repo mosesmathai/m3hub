@@ -1,9 +1,13 @@
+
+
+
+
 footer {
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
-  height: 45px;
+  height: 40px;
   background-color: rgb(0, 0, 0);
   color: white;
   font-family: Roboto, 'Times New Roman', Times, serif;
@@ -26,14 +30,20 @@ footer {
   width: 350px;
 }
 
+
 #logo {
   width: 40px;
   height: 40px;
   
 }
 
-#logoContainer span {
+#logoTagFooter {
   margin-left: 10px;
+  color: rgb(1, 211, 200);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  white-space: nowrap;
+  padding-top: 5px;
 }
 
 
@@ -46,7 +56,6 @@ footer {
   position: relative;
   color: black;
 }
-
 
 #menu {
   width: 30px;

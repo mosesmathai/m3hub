@@ -7,6 +7,21 @@
     display: none;
   }
 
+  .doc-preview-grid {
+    grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+
+  .document-container {
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(42, 129, 145);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+   
+    
+  }
 
   #homeMessage {
     align-items: center;
@@ -42,8 +57,8 @@
   #priceTag {padding-bottom: 7px;}
   
   body {
-    margin-bottom: 50px;
-    margin-top: 85px;
+    margin-bottom: 35px;
+    margin-top: 50px;
   }
 }
 
@@ -55,6 +70,11 @@
 
   nav {
     display: none;
+  }
+
+  .doc-preview-grid {
+    grid-template-columns: 1fr;
+    margin-left: 0;
   }
 
   #homeMessage {
@@ -95,8 +115,18 @@
 
 
   body {
-    margin-bottom: 50px;
-    margin-top: 85px;
+    margin-bottom: 35px;
+    margin-top: 50px;
+  }
+
+  .document-container {
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-color: rgb(42, 129, 145);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    
   }
 }
 
