@@ -1,0 +1,58 @@
+.doc-preview-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  margin-left: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.document-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.mla img,
+.apa img,
+.chicago img {
+  width: 250px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.mla,
+.apa,
+.chicago {
+  position: relative;
+}
+
+.file-number-mla,
+.file-number-apa,
+.file-number-chicago {
+  background-color: rgb(44, 42, 42);
+  position: absolute;
+  bottom: 12px;
+  left: 95px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+.document-container p {
+  margin-bottom: 5px;
+}
+
+.document-container a {
+  text-decoration: none;
+  background-color: rgb(28, 104, 12);
+  color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: background-color 0.15s;
+}
+
+.document-container a:hover {
+  background-color: rgb(38, 134, 18);
+}

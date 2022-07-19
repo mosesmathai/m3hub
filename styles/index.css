@@ -1,0 +1,87 @@
+#homeMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: aliceblue;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#homeMessage h1 {
+  margin-top: 10px;
+  padding-right: 90px;
+  font-family: Satisfy, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+#homeMessage p {
+  margin-top: 15px;
+  width: 260px;
+  line-height: 35px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: rgb(201, 229, 236);
+}
+
+#productSection {
+  color: rgb(228, 39, 171);
+  font-size: 25px;
+  padding-top: 5px;
+  font-family: Yatra One, Arial, Helvetica, sans-serif;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#productDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+#productImage {
+  width: 100%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#productDetails button {
+  font-size: 20px;
+  font-family: Roboto, 'Times New Roman', Times, serif;
+  border: none;
+  color: white;
+  background-color: rgb(45, 75, 16);
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: -3px;
+  margin-bottom: 3px;
+}
+
+#productTag {
+  font-size: 25px;
+  padding: 10px 20px;
+  color: white;
+  font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+#productQuantity {
+  font-size: 25px;
+  padding: 10px 5px;
+  color: rgb(201, 166, 10);
+  font-family: Roboto, 'Times New Roman', Times, serif;
+}
+
+#googleMaps {
+  text-decoration: none;
+  background-color: rgb(77, 25, 126);
+  color: aliceblue;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: background-color 0.15s;
+}
+
+#googleMaps:hover {
+  background-color: rgb(121, 46, 190);
+}
