@@ -110,3 +110,14 @@ footer {
 #menuDropdown a:active {
   background-color: gray;
 }
+
+#contactsContainer {
+  display: flex;
+  align-items: center;
+  
+}
+
+#contactsContainer a {
+  margin-right: 12px;
+  margin-top: 4px;
+}

@@ -93,16 +93,14 @@ header #middleSection {
   color: azure;
   width: 225px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   white-space: nowrap;
+  align-items: flex-start;
 }
 
-#contactsIcon {
-  width: 40px;
-  padding-top: 10px;
-  display: flex;
-  justify-content: end;
-  
+
+#contactsHeader {
+  margin-top: 10px;
 }
 
 #contactsIcon img {
@@ -110,17 +108,33 @@ header #middleSection {
   height: 40px;
 }
 
-#contactsHeader {
-  flex: 1;
-}
-
-#rightSection2 #contactsHeader {
-  display: flex;
-  flex-direction: column;
-  white-space: nowrap;
-  justify-content: center;
-}
-
 #moses {
  margin-top: 8px;
+}
+
+#contacts {
+  display: flex;
+}
+
+#socialMedia {
+  display: flex;
+  margin-top: 4px;
+}
+
+#socialMedia a {
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 7px;
+  
+}
+
+#socialMediaIcons {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#socialMediaIcons:active {
+  background-color: rgb(77, 77, 74);
 }
